@@ -1,0 +1,70 @@
+h1{
+    align-items: center;
+    font-size: 90px;
+    text-align: center;
+    background-color: rgb(107, 192, 218);
+    height: 170px;
+    width: auto;
+    margin: 0;
+    text-decoration: underline;
+    padding-top: 30px;
+    border-radius: 30px;
+}
+nav{
+    padding: 10px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(90, 72, 72);
+    font-size: x-large;
+    overflow: auto;
+    
+}
+nav>a{
+padding: 30px;
+color : white;
+margin: 20px;
+}
+nav>a:hover{
+    color: rgb(5, 5, 7);
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    font-size: xx-large;
+}
+h3{
+    text-align: center;
+    background-color: rgb(90, 150, 155);
+    border: 3px rgb(115, 115, 194) solid;
+    color: white;
+    height: 50px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    font-size: 45px;
+    overflow: auto;
+}
+div
+{
+    background-color: rgb(209, 229, 248);
+}
+.folder{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images{
+    min-width: 180px;
+    border:3px solid black;
+    margin: 12px;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+img{
+    object-fit: contain;
+    height: 230px;
+    width: 230px;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    
+}
